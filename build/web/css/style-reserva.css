@@ -1,0 +1,290 @@
+       @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+       @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+.controls {
+  width: 100%;
+  background: #1e3b27;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #573423;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.div-main{
+   display: flex;
+  justify-content: center;
+    
+}
+
+   .button{
+  width:  1000px;
+  height: 50px;
+  background: #57342399;
+  box-shadow: 7px 13px 37px #000;
+  border:  1px groove #24472f;
+  border-radius: 4px;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 20px;
+                  }
+                  
+                  button:hover {
+                             
+                        border: 1px solid #fff;
+                       cursor: pointer;
+                  }
+                  
+.div-button{
+    margin: -20px -50px; 
+    position:absolute;
+    top:90%; 
+    left:27%;
+}
+
+.div-register {
+  display: inline-block;
+  padding: 10px;
+  margin: 40px;
+  width: 500px;
+   height: 600px;
+  background: #24472f99;
+   padding: 30px;
+  border-radius: 4px;
+  border: 1px solid #573423;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 4px 2px 2px #573423;
+  font-size: 16px;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+ 
+}
+             
+     .title-form{
+     text-decoration: underline;
+   text-align: center;
+  vertical-align: middle;
+   font-family: 'Lobster Two', cursive;
+   font-size: 35px;
+   color: white;
+   margin-bottom: 20px;
+   margin-top: 0px;
+           
+       }
+       
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+    background: url(imagen.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+	margin: 0;
+		font-family: sans-serif;
+	font-weight: 100;
+}
+
+
+       
+a {
+  color: #FFF;
+}
+
+
+#container {
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+nav {
+  margin: 30px auto;
+  background-color: #24472f99;
+  box-shadow: 7px 13px 37px #000;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+    text-align: center;
+  }
+  
+nav ul li {
+  display:inline-block;
+  background-color: #24472f80;
+  }
+
+nav a {
+  display:block;
+  padding:0 20px; 
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+  font-size:16px;
+  line-height: 60px;
+  text-decoration:none;
+}
+
+nav a:hover { 
+  background-color: #57342399; 
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+  display: none;
+  position: absolute; 
+  top: 60px; /* the height of the main nav */
+}
+  
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display:inherit;
+}
+  
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width:170px;
+  float:none;
+  display:list-item;
+  position: relative;
+}
+
+/* Second, Third and more Tiers */
+nav ul ul ul li {
+  position: relative;
+  top:-60px; 
+  left:170px;
+}
+
+  
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    margin: -7px 0 0px 7px;
+    vertical-align: middle;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.ul-main{
+    background-color: transparent;
+    
+}
+
+.ul-sub{
+    background-color:#24472f;
+   opacity: 2.0;
+    
+    }
+    
+    .div-button-EmpNew{
+          display: flex;
+  justify-content: center;
+        
+        
+    }       
+    
+    .button-EmpNew{
+        width: auto;
+  height: 50px;
+  background: #57342399;
+  box-shadow: 7px 13px 37px #000;
+  border:  1px solid #24472f;
+  border-radius: 4px;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 20px;
+        
+    }
+    
+    button-EmpNew:hover {
+                             
+                        border: 1px solid #fff;
+                       cursor: pointer;
+                  }
+    
+    
+    .div-register-emp{
+  display: inline-block;
+  padding: 10px;
+  margin: 40px;
+  width: 500px;
+   height: 700px;
+  background: #24472f99;
+   padding: 30px;
+  border-radius: 4px;
+  border: 1px solid #573423;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 4px 2px 2px #573423;
+  font-size: 16px;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+ 
+}
+
+.div-find-emp{
+    display: inline-block;
+  padding: 10px;
+  margin: 40px;
+  width: auto;
+   height: auto;
+  background: #24472f99;
+   padding: 30px;
+  border-radius: 4px;
+  border: 1px solid #573423;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 4px 2px 2px #573423;
+  font-size: 16px;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+    
+    
+}
+ 
+ 
+.btn-seleccionar{
+  background: #57342399;
+  box-shadow: 7px 13px 37px #000;
+  border:  1px groove #24472f;
+  border-radius: 4px;
+  padding: 1px;
+  color: white;
+  margin: 1px 0;
+  font-size: 18px;
+                  }
+                  
+                  .btn-seleccionar:hover {
+                             
+                        border: 1px solid #fff;
+                       cursor: pointer;
+                  }
+        

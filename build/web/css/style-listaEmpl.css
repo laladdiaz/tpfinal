@@ -1,0 +1,236 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+    background: url(imagen.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+	margin: 0;
+		 font-family: 'Open Sans', sans-serif;
+                 font-size: 20px;
+	font-weight: 100;
+}
+
+a {
+  color: #FFF;
+}
+
+
+#container-nav {
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+nav {
+  margin: 30px auto;
+  background-color: #24472f99;
+  box-shadow: 7px 13px 37px #000;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+    text-align: center;
+  }
+  
+nav ul li {
+  display:inline-block;
+  background-color: #24472f80;
+  }
+
+nav a {
+  display:block;
+  padding:0 20px; 
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+  font-size:16px;
+  line-height: 60px;
+  text-decoration:none;
+}
+
+nav a:hover { 
+  background-color: #57342399; 
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+  display: none;
+  position: absolute; 
+  top: 60px; /* the height of the main nav */
+}
+  
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display:inherit;
+}
+  
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width:170px;
+  float:none;
+  display:list-item;
+  position: relative;
+}
+
+/* Second, Third and more Tiers */
+nav ul ul ul li {
+  position: relative;
+  top:-60px; 
+  left:170px;
+}
+
+  
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    margin: -7px 0 0px 7px;
+    vertical-align: middle;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.ul-main{
+    background-color: transparent;
+    
+}
+
+.ul-sub{
+    background-color:#24472f;
+   opacity: 2.0;
+    
+    }
+
+
+
+
+
+
+
+.container {
+                     display: flex;
+  justify-content: center;
+}
+
+table {
+	width: 800px;
+	border-collapse: collapse;
+                     box-shadow: 7px 13px 37px #000;
+	overflow: hidden;
+	
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: #24472f99;
+                    color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+
+.nom-column{
+        font-family: 'Open Sans', sans-serif;
+        text-shadow: 4px 2px 2px #573423;
+        font-size: 22px;
+         text-decoration: underline;
+       
+}
+
+   .title-form{
+     text-decoration: underline;
+   text-align: center;
+  vertical-align: middle;
+   font-family: 'Lobster Two', cursive;
+   font-size: 35px;
+   color: white;
+   margin-bottom: 20px;
+   margin-top: 0px;
+   background-color:  #24472f99;
+   text-shadow: 4px 2px 2px #573423;
+                     }
+                     
+                     
+                     .btn-editar{
+  background: #2BB22799;
+  box-shadow: 2px 5px 8px #000;
+  border:  1px solid #24472f;
+  border-radius: 3px;
+  padding: 6px;
+  color: white;
+  margin: 16px 0;
+  font-size: 18px;
+                  }
+                  
+                       
+                          .btn-borrar{
+  background: #C21A1A;
+  box-shadow: 2px 5px 8px #000;
+  border:  1px solid #C21A1A;
+  border-radius: 3px;
+  padding: 6px;
+  color: white;
+  margin: 16px 0;
+  font-size: 18px;
+                  }
+                  
+                   .btn-borrar:hover {
+                       border: 1px solid #fff;
+                       cursor: pointer;
+                  }
+                  
+                     .btn-editar:hover{
+                       border: 1px solid #fff;
+                       cursor: pointer;
+                  }
+                  
+                  
+                  .table-list{
+                      margin: auto auto;
+                      
+                      
+                  }
+                  
+                  .fecha-formato{
+                      font-size: 12px;
+                      font-weight: bold;
+                      
+                                            
+                  }
+                  
